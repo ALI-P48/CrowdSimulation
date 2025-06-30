@@ -3,6 +3,7 @@
 A modular, component-based crowd simulation demo using `Steering Behavior` system for Unity, implementing `Seek`, `Arrive`, `PathFollow`, and `AvoidanceBehavior` with optimized crowd avoidance using the Unity Job System and Burst Compiler. Designed for efficient NPC movement in 3D games, with support for path-following and collision avoidance.
 
 ![Preview-01.gif](Previews/Preview-01.gif)
+[The frame rate of this gif preview was lowered for smaller file size.]
 
 ## Features
 - **Modular Design**: Behaviors (`Seek`, `Arrive`, `PathFollow`, `AvoidanceBehavior`) implement the `ISteeringBehavior` interface, allowing easy addition of new behaviors.
